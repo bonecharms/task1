@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./929c850716857fe9d02cee62f00c6c03.jfif);
+    background-size: cover;
+    height: 100vh;
+    display:grid;
+}
+
+.container{
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home_icon{
+    background-image: url(./home.svg);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.search_box{
+    background-color: white;
+    display: flex;
+    padding: 7px 12px;
+    border-radius: 35px;
+    max-width: 350px;
+    width: 100%;
+
+
+}
+.search_box input{
+    border: none;
+    outline: none;
+    width: calc(100% - 25%);
+    font-size: 17px;
+}
+.search_icon{
+    width: 25px;
+    height:25px;
+    background-image: url(./search.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75%;
+}
+main{
+    background-color: white;
+    padding: 25px 0;
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.tagline{
+    background-color: #f8e6ef;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
+    padding: 10px;
+    text-align: center;
+    color: #fc2fb9;
+    margin-bottom: 25px;
+
+}
+.card_section{
+    padding: 0 25px;
+    display: flex;
+    gap: 20px;
+    
+
+
+
+}
+.card{
+    background-color: #fffafd ;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.1) ;
+
+
+
+}
+.card h2{
+    padding: 15px;
+}
+.card img{
+    width: 100%;
+}
+.card p{
+    padding: 10 px 15px;
+
+}
+
+.card button{
+    display: block;
+    margin: auto;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 30px;
+    background-color: #fc2fb9;
+    color: white;
+}
+footer{
+    background-color:#531224 ;
+    margin-top: auto;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+footer a{
+    color: rgba(255, 255, 255, 0.509);
+    text-decoration: none;
+
+
+
+}
+.copyright{
+    color:  rgba(255, 255, 255, 0.509);
+}
